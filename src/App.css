@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+.header{
+  color:white;
+  font-family: Nosifer;
+  text-shadow: white;
+  padding: 10px; 
+  padding-left: 15px;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.8);
+
+
+
+  
+      
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home{
+  background-image: url(https://cutewallpaper.org/28/collage-of-movie-covers-wallpaper-hd/film-poster-collage-rletterboxd.png);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  height: 800px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbtn{
   color: white;
+  width: 120px;
+  height: 40px;
+  background-color: red;
+  margin-left: 165%;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.hi{
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: Black Ops One;
+  letter-spacing: 2px; 
+  
+}
+.hi button{
+  margin-top: 15px;
+  color: rgb(251, 250, 250);
+  width: 210px;
+  height: 60px;
+  background-color: red;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.v1{
+  background-image: url(https://wallpaperaccess.com/full/3658600.jpg);
+  background-size: cover; 
+ 
+  background-attachment: fixed;
+  height: 800px;
+ 
+}
+
+.v2{
+  background-image: url(https://cdn.quotesgram.com/img/7/17/357058087-Movie_Quotes_2.jpg);
+  background-size: cover; 
+ 
+  background-attachment: fixed;
+  height: 800px;
+  
+}
+
+.v1b{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.v2content{
+  display: flex;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.v1content{
+  width: 700px;
+  height: 600px;
+  
+  
+}
+
+.v1content img{
+  height: 600px;
+  width: 700px;
+
+}
+
+.v2b{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  padding-left: 100px;
+
+  
+}
+
+.v2content img{
+  height: 250px;
+  width: 190px;
 }
